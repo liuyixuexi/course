@@ -15,6 +15,11 @@ public class TestService {
 
     public List<Test> list(){
         List<Test> tempList = testMapper.list();
-        return tempList;
+        if(tempList != null){
+            return tempList;
+        } else {
+            return null;
+        }
+
     }
 }
