@@ -4,7 +4,7 @@
 <mapper namespace="com.course.system.mapper.TestMapper">
 
     <select id="list" resultType="com.course.system.domain.Test">
-        select * from user
+        select t.id,t.name from test as t
     </select>
 
 </mapper>
