@@ -16,6 +16,7 @@ public class TestService {
     public List<Test> list(){
         List<Test> tempList = testMapper.list();
         if(tempList != null){
+            String SS = "";
             return tempList;
         } else {
             return null;
