@@ -16,7 +16,7 @@ public class TestService {
     public List<Test> list(){
         List<Test> tempList = testMapper.list();
         if(tempList != null){
-            String SS = "";
+            String SS = 测试代码";
             return tempList;
         } else {
             return null;
