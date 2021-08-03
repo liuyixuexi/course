@@ -20,7 +20,7 @@ public class TestService {
 //        test.setName("123456789");
 //
 //        tempList.add(test);
-        tempList = testMapper.list();
+        tempList = testMapper.getTestList();
         return tempList;
     }
 }
