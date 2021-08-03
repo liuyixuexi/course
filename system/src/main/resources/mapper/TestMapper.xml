@@ -5,7 +5,7 @@
 <mapper namespace="com.course.system.mapper.TestMapper">
 
     <select id="getTestList" parameterType="java.util.Map" resultType="com.course.system.domain.Test">
-        select t.id,t.name from test as t
+        select t.* from test as t
     </select>
 
 </mapper>
