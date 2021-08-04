@@ -15,12 +15,7 @@ public class TestService {
     private TestMapper testMapper;
 
     public List<Test> list(){
-        List<Test> tempList = new ArrayList<Test>();
-//        Test test = new Test();
-//        test.setName("123456789");
-//
-//        tempList.add(test);
-        tempList = testMapper.getTestList();
+        List<Test> tempList = testMapper.getTestList();
         return tempList;
     }
 }
