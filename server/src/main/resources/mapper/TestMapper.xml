@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.course.TestMapper">
 
-    <select id="getTestList" parameterType="java.util.Map" resultType="com.course.Test">
+    <select id="getTestList" parameterType="java.util.Map" resultType="com.course.server.domain.Test">
         select t.* from test as t
     </select>
 
